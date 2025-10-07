@@ -24,29 +24,45 @@
     </header>
 
     <main>
-        <section class="page-hero">
+        <section class="page-hero" style="background-image: linear-gradient(rgba(22, 61, 108, 0.8), rgba(22, 61, 108, 0.8)), url(https://planifer.com.br/wp-content/uploads/2024/12/metallic-factory-machine-scaled-e1734103271478.jpg);">
             <div class="container" data-aos="fade-in">
                 <h1>Fale Conosco</h1>
             </div>
         </section>
-        
+
         <section class="contato-pagina">
             <div class="container">
                 <div class="contato-wrapper">
                     <div class="form-container" data-aos="fade-up">
                         <span class="eyebrow">Informações de contato</span>
                         <h2 class="heading">Entre em contato</h2>
-                        <p>Precisa de ajuda ou quer conversar sobre seu projeto? Nossa equipe está pronta para responder!</p>
+                        <p>Precisa de ajuda, tem dúvidas ou quer conversar sobre seu projeto? Nossa equipe está pronta para responder!</p>
                         <form action="#">
-                            <div class="input-group"><label for="name">Nome</label><input type="text" id="name" required></div>
-                            <div class="input-group"><label for="email">E-mail</label><input type="email" id="email" required></div>
-                            <div class="input-group"><label for="phone">Telefone</label><input type="tel" id="phone" required></div>
-                            <div class="input-group"><label for="message">Mensagem</label><textarea id="message" rows="4"></textarea></div>
-                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                            <div class="input-group">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Telefone celular</label>
+                                <input type="tel" id="phone" placeholder="Não esqueça do seu DDD" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="message">Mensagem</label>
+                                <textarea id="message" rows="4" placeholder="Digite sua mensagem"></textarea>
+                            </div>
+                            <div class="acceptance-group">
+                                <input type="checkbox" id="aceite" required>
+                                <label for="aceite">Prometemos não utilizar suas informações para spam, clique aqui e veja nossa <a href="#">Política de Dados.</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar mensagem</button>
                         </form>
                     </div>
                     <div class="map-container" data-aos="fade-up" data-aos-delay="200">
-                        <iframe src="http://googleusercontent.com/maps.google.com/4" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="http://googleusercontent.com/maps.google.com/5" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -55,6 +71,8 @@
 
     <footer class="footer"></footer>
 
+    <a href="#top" class="fas fa-arrow-up" id="scroll-top"></a>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>

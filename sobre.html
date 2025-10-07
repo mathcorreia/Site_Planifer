@@ -6,11 +6,16 @@
     <title>Sobre a Planifer - Planifer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header class="header sticky"> <div class="header-container">
-            <a href="index.html" class="logo"><img src="https://planifer.com.br/wp-content/uploads/2024/11/Planifer_Visual-Identity__Logo-04-e1733832548947.png" alt="Logo Planifer"></a>
+
+    <header class="header sticky">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://planifer.com.br/wp-content/uploads/2024/11/Planifer_Visual-Identity__Logo-04-e1733832548947.png" alt="Logo Planifer">
+            </a>
             <nav class="navbar">
                 <a href="index.html" class="nav-link">Início</a>
                 <a href="sobre.html" class="nav-link active">Sobre nós</a>
@@ -23,25 +28,74 @@
     </header>
 
     <main>
-        <section class="page-hero">
+        <section class="page-hero" style="background-image: linear-gradient(rgba(22, 61, 108, 0.8), rgba(22, 61, 108, 0.8)), url(https://planifer.com.br/wp-content/uploads/2024/12/AdobeStock_507067955-scaled.jpeg);">
             <div class="container" data-aos="fade-in">
-                <p>SOBRE A PLANIFER</p>
+                <p class="eyebrow">SOBRE A PLANIFER</p>
                 <h1>Nossa história</h1>
             </div>
         </section>
 
-        <section class="timeline">
+        <section class="timeline-section">
             <div class="container">
                 <div class="text-content" data-aos="fade-up">
                     <span class="eyebrow">Nossa Essência</span>
                     <h2 class="heading">A base que guia cada movimento</h2>
                 </div>
+                <div class="timeline" data-aos="fade-up">
+                    <div class="timeline-item">
+                        <div class="timeline-year">1988</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><h3>Fundação</h3></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1996</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Início da Fabricação de Peças para o Setor Aeroespacial</p></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2000</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Certificação ISO 9001</p></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2006</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Nova Planta Planifer</p></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2014</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Prêmio de Melhor Fornecedor Embraer em Tecnologia de Usinagem</p></div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Acreditação NADCAP</p></div>
+                    </div>
+                     <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content"><p>Rebranding e Nova Identidade Visual</p></div>
+                    </div>
                 </div>
+            </div>
         </section>
+        
+        <section class="fale-conosco" id="cta">
+           <div class="container" data-aos="zoom-in">
+               <div class="content">
+                   <h2>Se ficou com alguma dúvida, estamos prontos para ajudar</h2>
+                   <a href="fale-conosco.html" class="btn btn-primary">Faça um orçamento</a>
+               </div>
+           </div>
+       </section>
+
     </main>
 
     <footer class="footer"></footer>
     
+    <a href="#top" class="fas fa-arrow-up" id="scroll-top"></a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
